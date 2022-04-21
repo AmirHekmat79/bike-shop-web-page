@@ -1,0 +1,127 @@
+*{
+    font-family:'Courgette', cursive ;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align:center;
+    color : #2980b9;
+}
+
+h2{
+    margin-top : 200px;
+    text-align:center;
+    color : #ccc;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg,#5a6776 , #ccb3d1);
+    padding: 8px;
+}
+
+.navLink{
+    text-decoration: none;
+    color: #333;
+    font-size:20px;
+    transition: all .2s;
+}
+
+.navLink:hover{
+    text-decoration: underline;
+    color: #f7f2ab;
+}
+.nav-brand{
+    border-radius: 4px;
+}
+
+a img{
+    border-radius : 50%;
+}
+.banner{
+    margin-top: 1px;
+    margin-bottom: 20px;
+    position: relative;
+    background: url(../images/ktm-1290-super-duke-r-evo-5k-2022-6000x4000-6901.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:280px;
+}
+#bannerTitle{
+    position: absolute;
+    top : -10%;
+    left : 3px;
+    max-width: 50%;
+    /* text-justify:newspaper; */
+    overflow: hidden;
+    font-size : 18px;
+    color :#f7f2ab;
+}
+
+
+
+.cardTheme{
+    padding : 60px;
+    background: linear-gradient(90deg,#5a6776 , #ccb3d1);
+}
+
+.tisfactiosanMessage{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    color : #f7f2ab;
+}
+
+.cards img{
+    width : 400px;
+    height : 250px;
+    border-radius : 5px;
+    box-shadow : 3px 3px 4px 8px;
+}
+.cards{
+    margin-bottom: 50px;
+    display : flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin : 20px 20px ;
+    background-color: #ccc;
+    border-radius: 3px;
+    transition : all .4s;
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.content{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow : 3px 3px 4px 8px;
+}
+
+input{
+    width : 200px;
+    padding : 5px;
+    border-radius : 5px;
+}
+input:focus{
+    position: relative;
+    border : 3px solid #2980b9;
+}
+
+.input-group i{
+    position : absolute;
+    top : 35px;
+    right : 20px;
+    color:#ff0000;
+}
+.input-group i:hover{
+   cursor : pointer;
+}
