@@ -5,37 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="Stylesheet" href="./styles/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Fjalla+One&display=swap"
           rel="stylesheet">
-    <title>Git</title>
+    <title>bike</title>
 </head>
 <body>
     <!--Header-->
-    <nav class="navbar">
-        <ul class="listsContainer">
-            <a class="nav-brand"><img width = "68px"  src="./images/icons8-bike-64.png"></a>
-            <li class="list-item"><a class="navLink" href="#">Home</a></li>
-            <li class="list-item"><a class="navLink" href="#">Gallery</a></li>
-            <li class="list-item"><a class="navLink" href="#">Product</a></li>
-            <li class="list-item"><a class="navLink" href="#">About us</a></li>
-            <div class="input-group">
-                <input type="text" placeholder = "search something" />
-                <i class="fas fa-search"></i>
-            </div>
+    <nav class="navbar navbar-expand">
+       <a class="nav-brand" ><img src="./images/icons8-bike-64.png"></a>
+        <ul class="navbar-nav list-unstyled">
+            <li class="nav-item"><a class="nav-link text-light mx-3" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-light mx-3" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link text-light mx-3" href="#">Product</a></li>
+            <li class="nav-item"><a class="nav-link text-light mx-3" href="#">About us</a></li>
         </ul>
     </nav>
     <!--End Of Header-->
     <!--Banner-->
     <div class="banner">
-        <h2 id="bannerTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consequuntur, itaque, recusandae cumque minus vel deleniti numquam perferendis provident magnam, ipsum id temporibus quidem a sed voluptate deserunt facilis similique earum explicabo? Eius quasi, rem praesentium in corporis magnam. Asperiores explicabo accusantium commodi porro iusto maiores neque pariatur sit assumenda.</h2>
+        <!-- <h2 id="bannerTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consequuntur, itaque, recusandae cumque minus vel deleniti numquam perferendis provident magnam, ipsum id temporibus quidem a sed voluptate deserunt facilis similique earum explicabo? Eius quasi, rem praesentium in corporis magnam. Asperiores explicabo accusantium commodi porro iusto maiores neque pariatur sit assumenda.</h2> -->
     </div>
     <!--End oF Banner-->
     <!--cards-->
     <section class="cardTheme">
-        <h2 class="tisfactiosanMessage">Your satisfaction is our main goal</h2>
+        <h2 class="satisfactionMessage">Your satisfaction is our main goal</h2>
         <div class="cards">
             <div class="card">
                 <img src="./images/nawa-racer-electric-bikes-future-bikes-hybrid-bikes-4928x3264-7558.jpg">
@@ -61,6 +58,37 @@
         </div>
     </section>
     <!--End Of Cards-->
-    <script src="./scripts/script.js"></script>
+    <footer>
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <h5 class="text-light">About us</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis repellat delectus ipsa beatae consectetur quia accusantium quidem hic tempora soluta.</p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h5 class="text-light">Do you have any question?</h5>
+                <ul>
+                    <li class="list-item"><a class="text-dark" href="#">Home</a></li>
+                    <li class="list-item"><a class="text-dark" href="#">Gallery</a></li>
+                    <li class="list-item"><a class="text-dark" href="#">Product</a></li>
+                    <li class="list-item"><a class="text-dark" href="#">About us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h5 class="text-light">Contact us</h5>
+                <div class="input-group my-4">
+                    <input type = "email" class="form-control" placeholder="contact with us" />
+                    <button class="btn btn-danger"  type="button">Send</button>
+                </div>
+                <i  class="fab fa-instagram fa-2x text-danger" ></i>
+                <i  class="fab fa-twitter fa-2x text-info" ></i>
+                <i  class="fab fa-facebook fa-2x text-primary" ></i>
+            </div>
+          </div>
+      </div>
+    </footer>
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
 </body>
 </html>

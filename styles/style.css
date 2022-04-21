@@ -14,32 +14,10 @@ h2{
     text-align:center;
     color : #ccc;
 }
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+.navbar{
     background: linear-gradient(90deg,#5a6776 , #ccb3d1);
-    padding: 8px;
-}
-
-.navLink{
-    text-decoration: none;
-    color: #333;
-    font-size:20px;
-    transition: all .2s;
-}
-
-.navLink:hover{
-    text-decoration: underline;
-    color: #f7f2ab;
-}
-.nav-brand{
-    border-radius: 4px;
-}
-
-a img{
-    border-radius : 50%;
 }
 .banner{
     margin-top: 1px;
@@ -62,18 +40,21 @@ a img{
     color :#f7f2ab;
 }
 
+.input-group{
+    width : 60px;
+}
 
 
 .cardTheme{
     padding : 60px;
-    background: linear-gradient(90deg,#5a6776 , #ccb3d1);
+    background: linear-gradient(135deg,#ccc, #eee);
 }
 
-.tisfactiosanMessage{
+.satisfactionMessage{
     margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
-    color : #f7f2ab;
+    color : #2980b9;
 }
 
 .cards img{
@@ -106,22 +87,13 @@ a img{
     box-shadow : 3px 3px 4px 8px;
 }
 
-input{
-    width : 200px;
-    padding : 5px;
-    border-radius : 5px;
-}
-input:focus{
-    position: relative;
-    border : 3px solid #2980b9;
+footer{
+    padding : 50px 90px;
+    background: linear-gradient(90deg,#5a6776 , #ccb3d1);
+
 }
 
-.input-group i{
-    position : absolute;
-    top : 35px;
-    right : 20px;
-    color:#ff0000;
-}
-.input-group i:hover{
-   cursor : pointer;
+
+footer ul{
+    list-style : none;
 }
